@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ### Usage
 ```
 Usage:
-    python inference.py
+        python inference.py
 
 ```
 
