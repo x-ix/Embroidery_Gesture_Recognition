@@ -28,6 +28,8 @@ Usage:
 
 - norm_stats.pt contains the mean and std used during training and has been applied to input matrices just prior to inference, if adapting the algorithm please retain this normalisation for accurate model performance.
 
+- The video files "Top-Down" and "Bottom-up" are used to simulate dual channel streaming and can be swapped out with either a live feed or video files of upward stitches with similar perspectives.
+
 - I haven't tested this using cuda nor python versions outside of 11.8 and 3.11.11 respectively, thus cannot comment on the programs functionality outside of those environments.
 
 
